@@ -161,7 +161,7 @@ int main(int argc, char ** argv) {
 	std::string name;
 	std::cout << "What is your name? ";
 	std::getline(std::cin, name);
-	std::cout << "Hello " << name << ", nice to meet 	you." << std::endl;
+	std::cout << "Hello " << name << ", nice to meet you." << std::endl;
 	
 	// If the user's name is too short, we fail:
 	if (name.size() < 4) {
