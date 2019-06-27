@@ -26,6 +26,10 @@ Explain something specific like how to use a particular feature or function.
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
+## See Also
+
+- [async](https://github.com/socketry/async) — An example of how to use this template.
+
 ## License
 
 Released under the MIT license.
