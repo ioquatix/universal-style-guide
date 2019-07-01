@@ -16,6 +16,22 @@ Use tabs everywhere except when the language/system doesn't support it (e.g. YAM
 
 *Accessibility*: Screen-readers can read off the number of tabs at the start of the line which translates directly to indentation level. As visually impaired programmers navigate up and down lines, they can follow the indentation level very easily.
 
+#### Justification
+
+Refer to [RFC20](https://tools.ietf.org/html/rfc20):
+
+> SP (Space): A normally non-printing graphic character used to
+>    separate words.  It is also a format effector which controls the
+>    movement of the printing position, one printing position forward.
+>    (Applicable also to display devices.)
+
+> HT (Horizontal Tabulation): A format effector which controls the
+>    movement of the printing position to the next in a series of
+>    predetermined positions along the printing line.  (Applicable also to
+>    display devices and the skip function on punched cards.)
+
+For a modern interpretation, read "predetermined positions" as "indentation levels".
+
 #### Trailing Whitespace
 
 Trailing whitespace on empty lines is fine, i.e. blank likes with indentation for the current scope. Generally avoid trailing whitespace on the end of lines of code.
